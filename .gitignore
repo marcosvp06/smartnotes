@@ -1,1 +1,13 @@
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Node files
 node_modules/
+
+# Environment files
+.env
+
+# Build folders
+dist/
+build/
