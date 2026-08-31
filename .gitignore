@@ -2,12 +2,12 @@
 logs/*
 !logs/.gitkeep
 
-# Node files
+# arquivos Node
 node_modules/
 
-# Environment files
+# arquivos Environment
 .env
 
-# Build folders
+# diretórios Build
 dist/
 build/
