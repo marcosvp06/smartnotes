@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
-    "git-config": "bash scripts/git-config.sh",
-    "lint": "eslint .",
     "start": "tsx watch src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start:prod": "node dist/index.js",
+    "lint": "eslint src/",
+    "lint:fix": "eslint --fix src/",
+    "format": "prettier --write src/"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -24,6 +29,7 @@
     "@types/node": "^26.4.0",
     "eslint": "^10.9.1",
     "globals": "^17.11.0",
+    "prettier": "^3.9.6",
     "tsx": "^4.23.13",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.68.0"
