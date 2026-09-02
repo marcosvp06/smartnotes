@@ -9,3 +9,5 @@ export function getEnv() {
         PORT: port({ default: 3000 }),
     });
 }
+
+export default getEnv
