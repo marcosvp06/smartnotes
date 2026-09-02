@@ -1,14 +1,15 @@
 import express, { type Request, type Response } from "express";
 import { getEnv } from "./utils/getEnv.js";
 
-const app = express()
-const env = getEnv()
+const app = express();
+const env = getEnv();
 
-const PORT = env.PORT
+const PORT = env.PORT;
 
 app.get("/", (req: Request, res: Response) => {
-    res.send("Hello world!");
+  res.send("Hello world!");
 });
+
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}.`);
+  console.log(`Server running on port ${PORT}.`);
 });

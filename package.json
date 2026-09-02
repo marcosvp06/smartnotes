@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
     "git-config": "bash scripts/git-config.sh",
     "start": "tsx watch src/index.ts",
@@ -14,7 +13,6 @@
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write src/"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
