@@ -5,6 +5,7 @@
   "main": "index.js",
   
   "scripts": {
+    "git-config": "bash scripts/git-config.sh",
     "start": "tsx watch src/index.ts",
     "build": "tsc",
     "typecheck": "tsc --noEmit",
