@@ -6,7 +6,7 @@ router.get("/", (req, res) => {
   res.send("Hello world!");
 });
 
-router.get("/", (req, res) => {
+router.get("/about", (req, res) => {
   res.send("Página about");
 });
 
